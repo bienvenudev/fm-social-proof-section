@@ -11,24 +11,25 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
     <title>Frontend Mentor | Social proof section</title>
   </head>
   <body>
-		<header>
-		<h1 class="sr-only">Social Proof Section</h1>
-	</header>
+		<h1 class="sr-only">Social Proof Section Challenge</h1>
 
 		<main class="container">
-			<div class="">
-			<div class="title">
-		<h2>10,000+ of our users love our products.</h1>
-		<p> We only provide great products combined with excellent customer service.
-			See what our satisfied customers are saying about our services.</p>	
+			<div class="upper-section">
+			<div class="intro">
+				<p class="title">10,000+ of our users love our products.</p>
+				<p> We only provide great products combined with excellent customer service.
+					See what our satisfied customers are saying about our services.</p>	
 			</div>
 
 		<div class="aside">
-			<div class="rating">
+			<div class="rating rating1">
 				<div class="rating-icons flex-group">
 					<img src="images/icon-star.svg" alt="">
 					<img src="images/icon-star.svg" alt="">
@@ -39,7 +40,7 @@
 					<p>Rated 5 Stars in Reviews</p>
 			</div>
 
-			<div class="rating">
+			<div class="rating rating2">
 			<div class="rating-icons flex-group">
 				<img src="images/icon-star.svg" alt="">
 				<img src="images/icon-star.svg" alt="">
@@ -50,7 +51,7 @@
 				<p>Rated 5 Stars in Report Guru</p>
 		</div>
 
-		<div class="rating">
+		<div class="rating rating3">
 		<div class="rating-icons flex-group">
 			<img src="images/icon-star.svg" alt="">
 			<img src="images/icon-star.svg" alt="">
@@ -64,50 +65,51 @@
 	</div>
 
 	<div class="product-testimonials">
-		<div class="testimonial">
-			<div class="flex-group">
-				<img src="images/image-colton.jpg" alt="">
+		<h2 class="sr-only">Testimonials</h2>
+		<figure class="testimonial">
+			<figcaption class="flex-group">
+				<img src="images/image-colton.jpg" alt="Colton">
 				<div class="testimonial-intro">
 				<p>Colton Smith</p>
 				<p>Verified Buyer</p>
 			</div>
-		</div>
-			<p>"We needed the same printed design as the one we had ordered a week prior.
+		</figcaption>
+			<blockquote>"We needed the same printed design as the one we had ordered a week prior.
 				Not only did they find the original order, but we also received it in time.
-				Excellent!"</p>
-		</div>
+				Excellent!"</blockquote>
+		</figure>
 
-		<div class="testimonial">
-			<div class="flex-group">
-				<img src="images/image-irene.jpg" alt="">
+		<figure class="testimonial">
+			<figcaption class="flex-group">
+				<img src="images/image-irene.jpg" alt="Irene">
 				<div class="testimonial-intro">
 				<p> Irene Roberts </p>
 				<p>Verified Buyer</p>
 			</div>
-		</div>
-			<p>"Customer service is always excellent and very quick turn around. Completely
-				delighted with the simplicity of the purchase and the speed of delivery."</p>
-		</div>
+		</figcaption>
+			<blockquote>"Customer service is always excellent and very quick turn around. Completely
+				delighted with the simplicity of the purchase and the speed of delivery."</blockquote>
+		</figure>
 
-		<div class="testimonial">
-			<div class="flex-group">
-				<img src="images/image-anne.jpg" alt="">
+		<figure class="testimonial">
+			<figcaption class="flex-group">
+				<img src="images/image-anne.jpg" alt="Anne">
 				<div class="testimonial-intro">
 				<p>Anne Wallace</p>
 				<p>Verified Buyer</p>
 			</div>
-		</div>
-			<p>"Put an order with this company and can only praise them for the very high
-				standard. Will definitely use them again and recommend them to everyone!"</p>
-		</div>
+		</figcaption>
+			<blockquote>"Put an order with this company and can only praise them for the very high
+				standard. Will definitely use them again and recommend them to everyone!"</blockquote>
+		</figure>
 	</div>
   </main> 
 
-    <!-- <footer class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded with ❤️ by <a href="#">Bienvenu</a>.
-    </footer> -->
+      >. Made with ❤️ by <a href="https://www.frontendmentor.io/profile/jwben1">Bienvenu</a>.
+    </footer>
   </body>
 </html>
