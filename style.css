@@ -76,12 +76,18 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
 	font-family: var(--ff-ls);
 	color: var(--clr-white);
+	background-image:
+	 url(/images/bg-pattern-top-desktop.svg),
+	 url(/images/bg-pattern-bottom-desktop.svg);
+	 background-position: top left, bottom right;
+	background-repeat: no-repeat;
+	background-size: max(50%, 370px), max(50%, 370px);
 }
 
 .container {
-	max-width: 75rem;
+	max-width: 30rem;
 	margin: 0 auto;
-	padding: 3rem;
+	padding: 1rem;
 }
 
 .flex-group	{
@@ -102,9 +108,10 @@ body {
 	margin: 1rem 0;
 }
 
-.aside{
+.aside {
 	margin: 2rem 0;
 }
+
 .rating {
 	background-color: var(--clr-light-grayish-magenta);
 	padding: .5rem;
@@ -133,6 +140,7 @@ body {
 }
 .testimonial {
 	background-color: var(--clr-very-dark-magenta);
+	height: 100%;
 	border-radius: .4rem;
 	padding: 1.8rem;
 }
@@ -157,6 +165,10 @@ body {
 }
 
 @media (min-width: 54rem) {
+	.container {
+		max-width: 75rem;
+		padding: 3rem;
+	}
 	.upper-section {
 		display: grid;
 		gap: 3rem;
