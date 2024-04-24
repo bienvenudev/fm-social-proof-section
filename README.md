@@ -46,6 +46,15 @@ Users should be able to:
 
 ### What I learned
 
+- Fix accessibility issues that comes with emojis by adding semantic text to screen readers 
+```html
+<footer> 
+Made with 
+    <span aria-hidden="true">❤️</span>
+    <span class="sr-only">love</span>
+</footer>
+```
+
 - The :nth-of-type() is a valuable tool for certain styling needs, especially when dealing with sequential elements. However, for complex or dynamic styling requirements, or when clarity and specificity are priorities, using modifier classes can be a more effective approach.
 
 ```html
