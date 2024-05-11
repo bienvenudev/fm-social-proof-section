@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/social-proof-section-using-css-grid-Sa7aVPoTb0)
-- [Live Site URL](https://jwben1.github.io/fm-social-proof-section/)
+- [Live Site URL](https://bienvenudev.github.io/fm-social-proof-section/)
 
 ## My process
 
